@@ -33,7 +33,7 @@ from pyconju.xlsx import Excelx
 ```
 ```python
 # Initialize object
-merger = Excelx()
+merger = Excelx
 path = "path/to/files/to/merge"
 fileList = ["file1.xlsx","file2.xlsx","file3.xlsx"]
 merger.merge_xlsx(fileList,path)
@@ -45,7 +45,7 @@ from pyconju.xls import Excel
 ```
 ```python
 # Initialize object
-merger = Excel()
+merger = Excel
 path = "path/to/files/to/merge"
 fileList = ["file1.xls","file2.xls","file3.xls"]
 merger.merge_xls(fileList,path)
@@ -57,7 +57,7 @@ from pyconju.csv import Csv
 ```
 ```python
 # Initialize object
-merger = Csv()
+merger = Csv
 path = "path/to/files/to/merge"
 fileList = ["file1.xlsx","file2.xlsx","file3.xlsx"]
 merger.merge_csv(fileList,path)
