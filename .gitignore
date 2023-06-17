@@ -2,3 +2,4 @@ venv/
 test/
 dist/
 src/pyconju.egg-info/
+docs/build/

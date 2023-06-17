@@ -1,17 +1,12 @@
 # Configuration file for the Sphinx documentation builder.
 
-import os
-import sys
-sys.path.insert(0,os.path.abspath('..'))
-
 # -- Project information -----------------------------------------------------
 
 project = 'PyConju'
 copyright = '2023, Agee Aondo'
 author = 'Agee Aondo'
-release = '2023'
-release = 'v0.1'
-version = 'v0.1.0'
+release = '0.1.0'
+version = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
 
