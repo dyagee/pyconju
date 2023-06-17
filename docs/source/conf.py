@@ -10,7 +10,7 @@ project = 'PyConju'
 copyright = '2023, Agee Aondo'
 author = 'Agee Aondo'
 release = '2023'
-#release = 'v0.1.1'
+release = 'v0.1'
 version = 'v0.1.0'
 
 # -- General configuration ---------------------------------------------------
