@@ -39,6 +39,34 @@ fileList = ["file1.xlsx","file2.xlsx","file3.xlsx"]
 merger.merge_xlsx(fileList,path)
 ```
 
+Out of the box you may encounter this error:
+
+```
+ImportError: Pandas requires version '2.0.1' or newer of 'xlrd' (version '1.2.0' currently installed).
+```
+Don't panic, Uninstall the current version of `xlrd`:
+
+```
+(.venv) $ pip uninstall xlrd
+
+   Found existing installation: xlrd 1.2.0
+   Uninstalling xlrd-1.2.0:
+
+
+   Proceed (Y/n)? y
+   Successfully uninstalled xlrd-1.2.0
+```
+
+Install `xlrd` version `2.0.1`:
+
+```
+(.venv) $ pip install xlrd==2.0.1
+```
+
+**Try the merging process again; it will work**🤩
+
+
+
 ###  Example 2
 ```python
 from pyconju.xls import Excel

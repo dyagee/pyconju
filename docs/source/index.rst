@@ -1,8 +1,5 @@
-PyConju
-========
-
-Guide
-===============
+PyConju's Guide
+=======================
 
 .. _PyConju:
 
@@ -22,7 +19,7 @@ With pyconju, you can effortlessly merge multiple file formats (XLSX, XLS, CSV) 
 saving you valuable time and effort. It's the go-to tool for data analysts, scientists, and anyone working with complex datasets.
 
 
-View difPy on `GitHub <https://github.com/dyagee/pyconju>`_ and `PyPi <https://pypi.org/project/pyconju/>`_.
+View pyconju on `GitHub <https://github.com/dyagee/pyconju>`_ and `PyPi <https://pypi.org/project/pyconju/>`_.
 
 
 .. toctree::

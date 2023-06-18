@@ -10,7 +10,7 @@ PyConju is constantly updated with code improvements, new features and requests 
 
 Contributions to pyconju are always welcomed and are highly appreciated! If you want to take part in the pyconju project, there are two ways to do so:
 
-1. Open an `issue <https://pandasguide.readthedocs.io/en/latest/>`_ and describe your idea, or the bug that you encountered.
+1. Open an `issue <https://github.com/dyagee/pyconju/issues>`_ and describe your idea, or the bug that you encountered.
 2. Contribute to pyconju and fix/implement the missing feature yourself. Please follow the instructions and guidelines listed below 👇
 
 Thank you for your contribution! 💐

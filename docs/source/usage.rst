@@ -51,6 +51,36 @@ Provide a list of the filenames and the directory path:
    fileList = ["file1.xls","file2.xls","file3.xls"]
    merger.merge_xls(fileList,path)
 
+If there is an error such as:
+
+.. code-block:: console
+
+   ImportError: Pandas requires version '2.0.1' or newer of 'xlrd' (version '1.2.0' currently installed).
+
+Uninstall the current version of ``xlrd``:
+
+.. code-block:: console
+
+   (.venv) $ pip uninstall xlrd
+
+   Found existing installation: xlrd 1.2.0
+   Uninstalling xlrd-1.2.0:
+
+
+   Proceed (Y/n)? y
+   Successfully uninstalled xlrd-1.2.0 
+
+
+Install ``xlrd`` version ``2.0.1``:
+
+.. code-block:: console
+
+   (.venv) $ pip install xlrd==2.0.1
+
+.. tip::
+   Try the merging process again; it will work 🤩
+
+
 
 Merging  CSV files
 ^^^^^^^^^^^^^^^^^^
