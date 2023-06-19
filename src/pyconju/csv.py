@@ -22,5 +22,5 @@ class Csv :
                 dframe = dframe.iloc[:,2:]
                 hashed = r.randint(1000,9999)
                 hashed = str(hashed)
-                merged_file = f"merged_{hashed}.xlsx"
+                merged_file = f"merged_{hashed}.csv"
                 dframe.to_csv(os.path.join(path,merged_file ),index=False)

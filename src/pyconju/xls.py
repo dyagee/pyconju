@@ -22,5 +22,5 @@ class Excel:
                 dframe = dframe.iloc[:,1:]
                 hashed = r.randint(1000,9999)
                 hashed = str(hashed)
-                merged_file = f"merged_{hashed}.xlsx"
+                merged_file = f"merged_{hashed}.xls"
                 dframe.to_excel(os.path.join(path,merged_file ),engine="openpyxl",index=False)
