@@ -66,6 +66,7 @@ Install `xlrd` version `2.0.1`:
 **Try the merging process again; it will work**🤩
 
 
+>*❕*  The above error is taken care of, as from `pyconju 0.1.2` and latest releases.
 
 ###  Example 2
 ```python
